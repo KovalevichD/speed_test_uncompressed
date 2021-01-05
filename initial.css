@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "DINNextSlabPro-Medium";
+    src: url("DINNextSlabPro-Medium.woff2")  format("woff2");
+}
+/*************** MAIN ELEMENTS ***************/
+
+body {
+    margin:0;
+    padding:0;	
+}
+
+div {
+    position:absolute;
+}
+
+#wrapper {
+    display:block;
+    top: 0;
+    left: 0;
+    width: 300px;
+    background: #161616;
+    height: 600px;
+	overflow: hidden;
+}
+
+#wrect {
+    width: inherit;
+    height: inherit;
+    background: #161616;
+    pointer-events: none;
+}
+
+#border {
+    border: 1px solid #333; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+    width: inherit;
+    height: inherit;
+    pointer-events: none;
+}
+
+#bgexit {
+    width: inherit;
+    height: inherit;
+    cursor: pointer;
+}
+
+/******************** LOGO ********************/
+
+#logo {
+    cursor: pointer;
+    width: 90px;
+    height: 90px;
+    top: 15px;
+    left: 15px;
+    background: url("logo.svg") no-repeat;
+    background-size: contain;
+}
+
+/******************** BUTTON ********************/
+
+
+#cta {    
+    width: 150px;
+    height: 40px;
+    bottom: 15px;
+    left: 15px;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 40px;
+    font-family: 'Arial', sans-serif;
+	font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    background: #00aeef;
+    color: #fff;
+    -webkit-transition: background 0.3s, color 0.3s;
+    transition: background 0.3s, color 0.3s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+
+}
+
+/********************** TEXT **********************/
+
+#text {
+    top: 120px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 270px;
+    height: inherit;
+    font-family: "DINNextSlabPro-Medium", serif;
+    font-size: 24px;
+    color: #fff;
+    line-height: 120%;
+}
+
+.headline {
+    width: inherit;
+    height: inherit;
+    font-weight: 600;
+}
+
+.blue {
+    color: #00AEEF;
+}
+/********************** IMAGE **********************/
+
+#images {
+    width: inherit;
+    height: inherit;
+    top: 0;
+    left: 0;
+}
+
+.img {
+    width: inherit;
+    height: inherit;
+}
+
